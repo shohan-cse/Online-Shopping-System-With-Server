@@ -13,7 +13,7 @@ $errors = array();
 $reg_date = date("Y/m/d");
 
 // connect to the database
-$db = mysqli_connect('localhost', 'root', '', 'Apricot_Store');
+$db = mysqli_connect('localhost', 'root', '', 'apricot-store');
 
 
 // REGISTER USER
@@ -94,7 +94,6 @@ if (isset($_POST['login_admin'])) {
     }
   }
 }
-
 
 ?>
 

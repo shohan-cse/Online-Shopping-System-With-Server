@@ -3,7 +3,7 @@
 $servername = "localhost";
 $username = "root";
 $password = "";
-$db = "Apricot_Store";
+$db = "apricot-store";
 
 // Create connection
 $con = mysqli_connect($servername, $username, $password,$db);
