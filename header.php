@@ -127,7 +127,7 @@ session_start();
 						<li><a href="#"><i class="fa fa-map-marker"></i>Daffodil Smart City</a></li>
 					</ul>
 					<ul class="header-links pull-right">
-						<li><a href="#"><i class="fa fa-dollar"></i> Dollar</a></li>
+						<li><a href="#"><i class="fa fa-dollar"></i> </a></li>
 						<li><?php
                              include "db.php";
                             if(isset($_SESSION["uid"])){
@@ -194,11 +194,8 @@ session_start();
 								<form>
 									<select class="input-select">
 										<option value="0">All Categories</option>
-										<option value="1">Electronics</option>
-										<option value="2">Kids Wear </option>
-										<option value="3">Furnitures </option>
-										<option value="4">Home Appliances </option>
-										<option value="5">Electronics Gadgets </option>
+										<option value="1">Men</option>
+										<option value="1">Women </option>
 
 									</select>
 									<input class="input" id="search" type="text" placeholder="Search here">
