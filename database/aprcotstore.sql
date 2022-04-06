@@ -48,7 +48,7 @@ CREATE TABLE `admin_info` (
 --
 
 INSERT INTO `admin_info` (`admin_id`, `admin_name`, `admin_email`, `admin_password`) VALUES
-(1, 'admin', 'admin@apricotstore.com', '12345');
+(1, 'admin', 'admin@apricotstore.com', '25f9e794323b453885f5181f1b624d0b');
 
 -- --------------------------------------------------------
 
