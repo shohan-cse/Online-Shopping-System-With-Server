@@ -1,12 +1,12 @@
 # Apricot-Store
 Assalamu Alaikum (السلام عليكم). Apricot Store is a project that based on online shopping system. In this project both front-end and back-end part have been used smoothly for better experience. As It's an open source project. So, It's open for anyone to download the source code and use. 
 
-# Installation(For using)
+# Installation Process
 01. Install XAMPP
 
 02. Open XAMPP Control panal and start [apache] and [mysql]
 
-03. Download project from github(https://github.com/shohan3401/Apricot-Store.git)  
+03. Download project from github (https://github.com/shohan3401/Apricot-Store.git)  
     
 04. extract files in (htdocs) folder (After installing the XAMPP, open the (XAMPP) folder. then you will get (htdocs) folder
 
@@ -18,7 +18,7 @@ Assalamu Alaikum (السلام عليكم). Apricot Store is a project that base
 
 08. after creating database name click on import
 
-09. browse the file in directory[Xampp\htdocs\apricot-store\database\apricotstore.sql]
+09. browse the file in directory [Xampp\htdocs\apricot-store\database\apricotstore.sql]
 
 10. after importing successfully
 
@@ -31,7 +31,7 @@ Assalamu Alaikum (السلام عليكم). Apricot Store is a project that base
 ## If you like my project 
 Don't forget to (Follow) and press the (Star) button. If you want to save this project in your profile, then click on the (Fork) button from the top right side
 
-## visit my other repository with different admin pages with below link
+## visit other repository with below link
 https://github.com/shohan3401?tab=repositories
 
 # Screenshots
