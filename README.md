@@ -26,7 +26,7 @@ Assalamu Alaikum (السلام عليكم). Apricot Store is a project that base
 
 12. first register and then login
 
-13. admin login details  Email= admin@apicotstore.com or username= admin and Password= 12345
+13. admin login details  Email= admin@apicotstore.com or username= admin and Password= 123456789
 
 ## If you like my project 
 Don't forget to (Follow) and press the (Star) button. If you want to save this project in your profile, then click on the (Fork) button from the top right side
