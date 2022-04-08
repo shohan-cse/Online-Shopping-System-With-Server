@@ -8,7 +8,7 @@ Assalamu Alaikum (السلام عليكم). Apricot Store is a project that base
 
 03. Download project from github (https://github.com/shohan3401/Apricot-Store.git)  
     
-04. extract files in (htdocs) folder (After installing the XAMPP, open the (XAMPP) folder. then you will get (htdocs) folder
+04. extract files in (htdocs) folder and keep the folder name apricot-store (After installing the XAMPP, open the (XAMPP) folder. then you will get (htdocs) folder)
 
 05. open link http://localhost/phpmyadmin
 
@@ -26,7 +26,7 @@ Assalamu Alaikum (السلام عليكم). Apricot Store is a project that base
 
 12. first register and then login
 
-13. admin login details  Email= admin@apicotstore.com or username= admin and Password= 12345
+13. admin login details  Email= admin@apicotstore.com or username= admin and Password= 123456789
 
 ## If you like my project 
 Don't forget to (Follow) and press the (Star) button. If you want to save this project in your profile, then click on the (Fork) button from the top right side
