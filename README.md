@@ -1,5 +1,5 @@
 # Apricot-Store
-Assalamu Alaikum (السلام عليكم). Apricot Store is a project that based on online shopping system. In this project both front-end and back-end part have been used smoothly for better experience. As It's an open source project. So, It's open for anyone to download the source code and use. 
+Assalamu Alaikum (السلام عليكم). Apricot Store(Named this project) is a project that based on online shopping system. In this project both front-end and back-end part have been used smoothly for better experience. As It's an open source project. So, It's open for anyone to download the source code and use. 
 
 # Installation Process
 01. Install XAMPP
@@ -54,4 +54,4 @@ https://github.com/shohan3401?tab=repositories
 
 
 ## Contact with me
-help.shohan@gmail.com
+info.shohan.cse@gmail.com
