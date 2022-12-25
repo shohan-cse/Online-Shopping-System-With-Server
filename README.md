@@ -6,7 +6,7 @@ Assalamu Alaikum (السلام عليكم). Apricot Store(Named this project) is
 
 02. Open XAMPP Control panal and start [apache] and [mysql]
 
-03. Download project from github (https://github.com/shohan3401/Apricot-Store.git)  
+03. Download project from github (https://github.com/shohan-cse/Online-Shopping-System-With-Server.git)  
     
 04. extract files in (htdocs) folder and keep the folder name apricot-store (After installing the XAMPP, open the (XAMPP) folder. then you will get (htdocs) folder)
 
