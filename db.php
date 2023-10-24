@@ -1,9 +1,9 @@
 <?php
 
-$servername = "localhost";
+$servername = "localhost:3308";
 $username = "root";
 $password = "";
-$db = "apricot-store";
+$db = "tiendaonline";
 
 // Create connection
 $con = mysqli_connect($servername, $username, $password,$db);
