@@ -77,7 +77,7 @@ if (isset($_GET["st"])) {
 											<p>Hello <?php echo "<b>".$_SESSION["name"]."</b>"; ?>,Your payment process is 
 											successfully completed and your Transaction id is <b><?php echo $trx_id; ?></b><br/>
 											you can continue your Shopping <br/></p>
-											<a href="index.php" class="btn btn-success btn-lg">Continue Shopping</a>
+											<a href="index.php" class="btn btn-success btn-lg">Seguir comprando</a>
 										</div>
 										<div class="panel-footer"></div>
 									</div>

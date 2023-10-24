@@ -1,7 +1,7 @@
 <?php
 #this is Login form page , if user is already logged in then we will not allow user to access this page by executing isset($_SESSION["uid"])
 #if below statment return true then we will send user to their profile.php page
-//in action.php page if user click on "ready to checkout" button that time we will pass data in a form from action.php page
+//in action.php page if user click on "Proceder a Pagar" button that time we will pass data in a form from action.php page
 if (isset($_POST["login_user_with_product"])) {
 	//this is product list array
 	$product_list = $_POST["product_id"];

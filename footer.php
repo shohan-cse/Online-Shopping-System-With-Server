@@ -7,12 +7,12 @@
 					<div class="row">
 						<div class="col-md-3 col-xs-6">
 							<div class="footer">
-								<h3 class="footer-title">About Us</h3>
-								<p>This is an online based shopping platform.</p>
+								<h3 class="footer-title">Sobre Nosotros</h3>
+								<p>Este es nuestro proyecto de una tienda de productos variados desarrollado con PHP.</p>
 								<ul class="footer-links">
-									<li><a href="#"><i class="fa fa-map-marker"></i>Khagan, Daffodil Smart City</a></li>
-									<li><a href="#"><i class="fa fa-phone"></i>+880123456789</a></li>
-									<li><a href="#"><i class="fa fa-envelope-o"></i>help.shohan@gmail.com</a></li>
+									<li><a href="#"><i class="fa fa-map-marker"></i>San Salvador</a></li>
+									<li><a href="#"><i class="fa fa-phone"></i>+503 7228-0652</a></li>
+									<li><a href="#"><i class="fa fa-envelope-o"></i>meraki@gmail.com</a></li>
 								</ul>
 							</div>
 						</div>
@@ -27,19 +27,19 @@
 							</ul>
 							<span class="copyright">
 								<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-								Copyright &copy;<script>document.write(new Date().getFullYear());</script>,  Apricot Store.<i class="fa fa-heart-o" aria-hidden="true"></i> All <a href="#" target="_blank">Rights Reserved</a>
+								Copyright &copy;<script>document.write(new Date().getFullYear());</script>,  Meraki Store<i class="fa fa-heart-o" aria-hidden="true"></i> All <a href="#" target="_blank">Todos los derechos reservados</a>
 							<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 							</span>
 						</div>
 
 						<div class="col-md-3 col-xs-6">
 							<div class="footer">
-								<h3 class="footer-title">Categories</h3>
+								<h3 class="footer-title">Categorías</h3>
 								<ul class="footer-links">
-									<li><a href="#">Mobiles</a></li>
-									<li><a href="#">Men</a></li>
-									<li><a href="#">Kids</a></li>
-									<li><a href="#">Accessories</a></li>
+									<li><a href="#">Teléfonos</a></li>
+									<li><a href="#">Caballeros</a></li>
+									<li><a href="#">Niños</a></li>
+									<li><a href="#">Accesorios</a></li>
 								</ul>
 							</div>
 						</div>

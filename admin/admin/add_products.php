@@ -66,7 +66,7 @@ include "topheader.php";
                     </div>
                      <div class="col-md-12">
                       <div class="form-group">
-                        <label>Description</label>
+                        <label>Descripción</label>
                         <textarea rows="4" cols="80" id="details" required name="details" class="form-control"></textarea>
                       </div>
                     </div>
@@ -88,7 +88,7 @@ include "topheader.php";
           <div class="col-md-5">
             <div class="card">
               <div class="card-header card-header-primary">
-                <h5 class="title">Categories</h5>
+                <h5 class="title">Categorías</h5>
               </div>
               <div class="card-body">
                 
@@ -96,13 +96,13 @@ include "topheader.php";
                     
                     <div class="col-md-12">
                       <div class="form-group">
-                        <label>Product Category</label>
+                        <label>Categoría del Producto</label>
                         <input type="number" id="product_type" name="product_type" required="[1-6]" class="form-control">
                       </div>
                     </div>
                     <div class="col-md-12">
                       <div class="form-group">
-                        <label for="">Product Brand</label>
+                        <label for="">Marca del Producto</label>
                         <input type="number" id="brand" name="brand" required class="form-control">
                       </div>
                     </div>
@@ -110,7 +110,7 @@ include "topheader.php";
                   
                     <div class="col-md-12">
                       <div class="form-group">
-                        <label>Product Keywords</label>
+                        <label>Palabras clave del Producto</label>
                         <input type="text" id="tags" name="tags" required class="form-control" >
                       </div>
                     </div>
@@ -118,7 +118,7 @@ include "topheader.php";
                 
               </div>
               <div class="card-footer">
-                  <button type="submit" id="btn_save" name="btn_save" required class="btn btn-fill btn-primary">Update Product</button>
+                  <button type="submit" id="btn_save" name="btn_save" required class="btn btn-fill btn-primary">Modificar Producto</button>
               </div>
             </div>
           </div>

@@ -6,7 +6,7 @@
             <script>
               document.write(new Date().getFullYear())
             </script>, All Rights Reserved <i class="material-icons">favorite</i> by
-            <a href="" target="_blank">Apricot Store</a>.
+            <a href="" target="_blank">Meraki Store</a>.
           </div>
           <!-- your footer here -->
         </div>

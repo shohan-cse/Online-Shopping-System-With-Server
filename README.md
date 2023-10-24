@@ -48,9 +48,9 @@ https://github.com/shohan3401?tab=repositories
 
 ![Electronics's Page](https://github.com/shohan3401/Apricot-Store/blob/main/screenshot/electronics.PNG)
 
-📌Top Selling's Page:
+📌Top ventas's Page:
 
-![Top Selling's Page](https://github.com/shohan3401/Apricot-Store/blob/main/screenshot/top_selling.PNG)
+![Top ventas's Page](https://github.com/shohan3401/Apricot-Store/blob/main/screenshot/top_selling.PNG)
 
 
 ## Contact with me
