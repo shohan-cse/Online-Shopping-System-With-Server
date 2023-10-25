@@ -180,13 +180,13 @@
 											<i class='fa fa-star'></i>
 										</div>
 										<div class='product-btns'>
-											<button class='add-to-wishlist'><i class='fa fa-heart-o'></i><span class='tooltipp'>Añadir a Favoritos</span></button>
-											<button class='add-to-compare'><i class='fa fa-exchange'></i><span class='tooltipp'>Añadir a Comparación</span></button>
+											<button class='add-to-wishlist'><i class='fa fa-heart-o'></i><span class='tooltipp'>Agregar a Favoritos</span></button>
+											<button class='add-to-compare'><i class='fa fa-exchange'></i><span class='tooltipp'>Agregar a Comparación</span></button>
 											<button class='quick-view'><i class='fa fa-eye'></i><span class='tooltipp'>quick view</span></button>
 										</div>
 									</div>
 									<div class='add-to-cart'>
-										<button pid='$pro_id' id='product' class='add-to-cart-btn block2-btn-towishlist' href='#'><i class='fa fa-shopping-cart'></i> Añadir al carrito</button>
+										<button pid='$pro_id' id='product' class='add-to-cart-btn block2-btn-towishlist' href='#'><i class='fa fa-shopping-cart'></i> Agregar al carrito</button>
 									</div>
 								</div>
                                
@@ -232,31 +232,31 @@
 								<li>
 									<div>
 										<h3>02</h3>
-										<span>Days</span>
+										<span>Días</span>
 									</div>
 								</li>
 								<li>
 									<div>
 										<h3>10</h3>
-										<span>Hours</span>
+										<span>Horas</span>
 									</div>
 								</li>
 								<li>
 									<div>
 										<h3>34</h3>
-										<span>Mins</span>
+										<span>Minutos</span>
 									</div>
 								</li>
 								<li>
 									<div>
 										<h3>60</h3>
-										<span>Secs</span>
+										<span>Segundos</span>
 									</div>
 								</li>
 							</ul>
-							<h2 class="text-uppercase">hot deal this week</h2>
-							<p>New Collection Up to 50% OFF</p>
-							<a class="primary-btn cta-btn" href="store.php">Shop now</a>
+							<h2 class="text-uppercase">Ofertas de esta semana</h2>
+							<p>Nueva colección con hasta un 50% de descuento</p>
+							<a class="primary-btn cta-btn" href="store.php">Comprar ahora</a>
 						</div>
 					</div>
 				</div>
@@ -280,10 +280,10 @@
 							<h3 class="title">Top ventas</h3>
 							<div class="section-nav">
 								<ul class="section-tab-nav tab-nav">
-									<li class="active"><a data-toggle="tab" href="#tab2">Formals</a></li>
-									<li><a data-toggle="tab" href="#tab2">Shirts</a></li>
-									<li><a data-toggle="tab" href="#tab2">T-Shirts</a></li>
-									<li><a data-toggle="tab" href="#tab2">Pants</a></li>
+									<li class="active"><a data-toggle="tab" href="#tab2">Formal</a></li>
+									<li><a data-toggle="tab" href="#tab2">Camisas</a></li>
+									<li><a data-toggle="tab" href="#tab2">Camisetas</a></li>
+									<li><a data-toggle="tab" href="#tab2">Pantalones</a></li>
 								</ul>
 							</div>
 						</div>
@@ -340,13 +340,13 @@
 											<i class='fa fa-star'></i>
 										</div>
 										<div class='product-btns'>
-											<button class='add-to-wishlist'><i class='fa fa-heart-o'></i><span class='tooltipp'>Añadir a Favoritos</span></button>
-											<button class='add-to-compare'><i class='fa fa-exchange'></i><span class='tooltipp'>Añadir a Comparación</span></button>
+											<button class='add-to-wishlist'><i class='fa fa-heart-o'></i><span class='tooltipp'>Agregar a Favoritos</span></button>
+											<button class='add-to-compare'><i class='fa fa-exchange'></i><span class='tooltipp'>Agregar a Comparación</span></button>
 											<button class='quick-view'><i class='fa fa-eye'></i><span class='tooltipp'>quick view</span></button>
 										</div>
 									</div>
 									<div class='add-to-cart'>
-										<button pid='$pro_id' id='product' class='add-to-cart-btn block2-btn-towishlist' href='#'><i class='fa fa-shopping-cart'></i> Añadir al carrito</button>
+										<button pid='$pro_id' id='product' class='add-to-cart-btn block2-btn-towishlist' href='#'><i class='fa fa-shopping-cart'></i> Agregar al carrito</button>
 									</div>
 								</div>
                                

@@ -8,9 +8,9 @@ include("../../db.php");
           <div class="card card-stats">
               <div class="card-header card-header-warning card-header-icon">
                   <div class="card-icon">
-                      <i class="material-icons">content_copy</i>
+                      <i class="material-icons">people</i>
                   </div>
-                  <p class="card-category">Total users</p>
+                  <p class="card-category">Total de Usuarios</p>
                   <h3 class="card-title">
                       <?php  $query = "SELECT user_id FROM user_info"; 
                                       $result = mysqli_query($con, $query); 
@@ -34,7 +34,7 @@ include("../../db.php");
                   <div class="card-icon">
                       <i class="material-icons">store</i>
                   </div>
-                  <p class="card-category">Total Catagories</p>
+                  <p class="card-category">Total de Categorías</p>
                   <h3 class="card-title"> <?php  $query = "SELECT cat_id FROM categories"; 
                                       $result = mysqli_query($con, $query); 
                                        if ($result) 
@@ -54,9 +54,9 @@ include("../../db.php");
           <div class="card card-stats">
               <div class="card-header card-header-danger card-header-icon">
                   <div class="card-icon">
-                      <i class="material-icons">info_outline</i>
+                      <i class="material-icons">insert_emoticon</i>
                   </div>
-                  <p class="card-category">Total sellers</p>
+                  <p class="card-category">Total de Compradores</p>
                   <h3 class="card-title"><?php  $query = "SELECT user_id FROM user_info"; 
                                       $result = mysqli_query($con, $query); 
                                        if ($result) 
@@ -76,9 +76,9 @@ include("../../db.php");
           <div class="card card-stats">
               <div class="card-header card-header-info card-header-icon">
                   <div class="card-icon">
-                      <i class="fa fa-twitter"></i>
+                  <i class="material-icons">list_alt</i>
                   </div>
-                  <p class="card-category">Total Orders</p>
+                  <p class="card-category">Total de Órdenes</p>
                   <h3 class="card-title"><?php  $query = "SELECT order_id FROM orders_info"; 
                                       $result = mysqli_query($con, $query); 
                                        if ($result) 

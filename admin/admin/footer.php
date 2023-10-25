@@ -5,8 +5,8 @@
             &copy;
             <script>
               document.write(new Date().getFullYear())
-            </script>, All Rights Reserved <i class="material-icons">favorite</i> by
-            <a href="" target="_blank">Meraki Store</a>.
+            </script>, Todos los derechos reservados <i class="material-icons">favorite</i> por
+            <a href="" target="_blank">Meraki</a>.
           </div>
           <!-- your footer here -->
         </div>

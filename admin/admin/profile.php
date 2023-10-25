@@ -43,8 +43,8 @@ include "topheader.php";
             <div class="col-md-8">
               <div class="card">
                 <div class="card-header card-header-primary">
-                  <h4 class="card-title">Edit Profile</h4>
-                  <p class="card-category">Complete your profile</p>
+                  <h4 class="card-title">Actualizar Perfil</h4>
+                  <p class="card-category">Completa tu Perfil</p>
                 </div>
                 <div class="card-body">
                   <form method="post" action="profile.php">
@@ -61,7 +61,7 @@ include "topheader.php";
                       </div>
                      <div class="col-md-4">
                         <div class="form-group bmd-form-group">
-                          <label class="bmd-label-floating">enter old password</label>
+                          <label class="bmd-label-floating">Ingresa tu Antigua Contraseña</label>
                           <input type="text" class="form-control" name="old_pass" id="npwd">
                         </div>
                       </div>
@@ -69,19 +69,19 @@ include "topheader.php";
                   
                       <div class="col-md-4">
                         <div class="form-group bmd-form-group">
-                          <label class="bmd-label-floating">Change Password Here</label>
+                          <label class="bmd-label-floating">Cambia tu Contraseña aquí</label>
                           <input type="text" class="form-control" name="new_pass" id="npwd">
                         </div>
                       </div>
                      
                       <div class="col-md-4">
                         <div class="form-group bmd-form-group">
-                          <label class="bmd-label-floating">confirm Password Here</label>
+                          <label class="bmd-label-floating">Confirma tu Contraseña aquí</label>
                           <input type="text" class="form-control" name="re_pass" id="npwd">
                         </div>
                       </div>
                
-                    <button class="btn btn-primary pull-right" type="submit" name="re_password">Update Profile</button>
+                    <button class="btn btn-primary pull-right" type="submit" name="re_password">Actualizar Perfil</button>
                    
                     <div class="clearfix"></div>
                   </form>

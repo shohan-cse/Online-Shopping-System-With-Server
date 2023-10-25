@@ -27,7 +27,7 @@
 							</ul>
 							<span class="copyright">
 								<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-								Copyright &copy;<script>document.write(new Date().getFullYear());</script>,  Meraki Store<i class="fa fa-heart-o" aria-hidden="true"></i> All <a href="#" target="_blank">Todos los derechos reservados</a>
+								Copyright &copy;<script>document.write(new Date().getFullYear());</script>,  Meraki<i class="fa fa-heart-o" aria-hidden="true"></i> Todos <a href="#" target="_blank">los derechos reservados</a>
 							<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 							</span>
 						</div>

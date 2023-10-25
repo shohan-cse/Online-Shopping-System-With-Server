@@ -19,22 +19,22 @@ include "topheader.php";
          <div class="col-md-14">
             <div class="card ">
               <div class="card-header card-header-primary">
-                <h4 class="card-title">Manage User</h4>
+                <h4 class="card-title">Administrar Usuarios</h4>
               </div>
               <div class="card-body">
                 <div class="table-responsive ps">
                   <table class="table tablesorter table-hover" id="">
                     <thead class=" text-primary">
-                      <tr><th>User id</th>
-                        <th>First_name</th>
-                        <th>last_name</th>
-                        <th>Email</th>
+                      <tr><th>ID</th>
+                        <th>Nombre</th>
+                        <th>Apellido</th>
+                        <th>Correo</th>
                        
-                <th>User Password</th>
-                <th>mobile</th>
-                <th>city</th>
-                <th>Address</th>
-	<th><a href="addsuppliers.php" class="btn btn-success">Add New</a></th>
+                <th>Contraseña</th>
+                <th>Teléfono</th>
+                <th>Ciudad</th>
+                <th>Dirección</th>
+	<th><a href="addsuppliers.php" class="btn btn-success">Agregar Nuevo</a></th>
                     </tr></thead>
                     <tbody>
                       <?php 
@@ -55,7 +55,7 @@ include "topheader.php";
                            <td>$address2</td>";
                         echo"<td>
                      
-                        <a class='btn btn-danger' href='manageuser.php?user_id=$user_id&action=delete'>Delete<div class='ripple-container'></div></a>
+                        <a class='btn btn-danger' href='manageuser.php?user_id=$user_id&action=delete'>Eliminar<div class='ripple-container'></div></a>
                         </td></tr>";
                         }
                         mysqli_close($con);

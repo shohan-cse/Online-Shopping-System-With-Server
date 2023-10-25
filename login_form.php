@@ -30,28 +30,28 @@ if (isset($_POST["login_user_with_product"])) {
 								<form onsubmit="return false" id="login" class="login100-form ">
 									<div class="billing-details jumbotron">
                                     <div class="section-title">
-                                        <h2 class="login100-form-title p-b-49" >Login Here</h2>
+                                        <h2 class="login100-form-title p-b-49" >Iniciar Sesión Aquí</h2>
                                     </div>
                                    
                                     
                                     <div class="form-group">
-                                       <label for="email">Email</label>
+                                       <label for="email">Correo</label>
                                         <input class="input input-borders" type="email" name="email" placeholder="Email" id="password" required>
                                     </div>
                                     
                                     <div class="form-group">
-                                       <label for="email">Password</label>
+                                       <label for="email">Contraseña</label>
                                         <input class="input input-borders" type="password" name="password" placeholder="password" id="password" required>
                                     </div>
                                     
                                     <div class="text-pad" >
                                        <a href="#">
-                                           forget password ?
+                                           ¿Olvidaste tu contraseña?
                                        </a>
                                         
                                     </div>
                                     
-                                        <input class="primary-btn btn-block"   type="submit"  Value="Login">
+                                        <input class="primary-btn btn-block"   type="submit"  Value="Iniciar Sesión">
                                         
                                         <div class="panel-footer"><div class="alert alert-danger"><h4 id="e_msg"></h4></div></div>
                                     

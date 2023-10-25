@@ -45,41 +45,41 @@ session_start();
 		<![endif]-->
     <style>
         #navigation {
-          background: #FF4E50;  /* fallback for old browsers */
-            background: -webkit-linear-gradient(to right, #F9D423, #FF4E50);  /* Chrome 10-25, Safari 5.1-6 */
-            background: linear-gradient(to right, #F9D423, #FF4E50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+          	background: #FF4E50;  /* fallback for old browsers */
+		  	background: -webkit-linear-gradient(to right, #1565c0, #4dd0e1);  /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #1565c0, #4dd0e1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
           
         }
         #header {
   
-            background: #780206;  /* fallback for old browsers */
-            background: -webkit-linear-gradient(to right, #061161, #780206);  /* Chrome 10-25, Safari 5.1-6 */
-            background: linear-gradient(to right, #061161, #780206); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            background: #0070c9;  /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #061161, #006b8f);  /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #061161, #006b8f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
   
         }
         #top-header {
               
   
-            background: #870000;  /* fallback for old browsers */
-            background: -webkit-linear-gradient(to right, #190A05, #870000);  /* Chrome 10-25, Safari 5.1-6 */
-            background: linear-gradient(to right, #190A05, #870000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            background: #1565c0;  /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #01062b, #1565c0);  /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #01062b, #1565c0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 
         }
         #footer {
-            background: #7474BF;  /* fallback for old browsers */
-            background: -webkit-linear-gradient(to right, #348AC7, #7474BF);  /* Chrome 10-25, Safari 5.1-6 */
-            background: linear-gradient(to right, #348AC7, #7474BF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            background: #4dd0e1;  /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #4dd0e1, #348AC7);  /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #4dd0e1, #348AC7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 
           color: #1E1F29;
         }
         #bottom-footer {
-            background: #7474BF;  /* fallback for old browsers */
-            background: -webkit-linear-gradient(to right, #348AC7, #7474BF);  /* Chrome 10-25, Safari 5.1-6 */
-            background: linear-gradient(to right, #348AC7, #7474BF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            background: #4dd0e1;  /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #4dd0e1, #348AC7);  /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #4dd0e1, #348AC7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
           
 
         }
@@ -137,10 +137,10 @@ session_start();
                                 
                                 echo '
                                <div class="dropdownn">
-                                  <a href="#" class="dropdownn" data-toggle="modal" data-target="#myModal" ><i class="fa fa-user-o"></i> HI '.$row["first_name"].'</a>
+                                  <a href="#" class="dropdownn" data-toggle="modal" data-target="#myModal" ><i class="fa fa-user-o"></i> Hola '.$row["first_name"].'</a>
                                   <div class="dropdownn-content">
-                                    <a href="" data-toggle="modal" data-target="#profile"><i class="fa fa-user-circle" aria-hidden="true" ></i>My Profile</a>
-                                    <a href="logout.php"  ><i class="fa fa-sign-in" aria-hidden="true"></i>Log out</a>
+                                    <a href="" data-toggle="modal" data-target="#profile"><i class="fa fa-user-circle" aria-hidden="true" ></i>Mi Perfil</a>
+                                    <a href="logout.php"  ><i class="fa fa-sign-in" aria-hidden="true"></i>Cerrar Sesión</a>
                                     
                                   </div>
                                 </div>';
@@ -151,8 +151,8 @@ session_start();
                                   <a href="#" class="dropdownn" data-toggle="modal" data-target="#myModal" ><i class="fa fa-user-o"></i> Mi Cuenta</a>
 								  <div class="dropdownn-content">
 								  	<a href="admin/login.php" ><i class="fa fa-user" aria-hidden="true" ></i>Admin</a>
-                                    <a href="" data-toggle="modal" data-target="#Modal_login"><i class="fa fa-sign-in" aria-hidden="true" ></i>Login</a>
-                                    <a href="" data-toggle="modal" data-target="#Modal_register"><i class="fa fa-user-plus" aria-hidden="true"></i>Register</a>
+                                    <a href="" data-toggle="modal" data-target="#Modal_login"><i class="fa fa-sign-in" aria-hidden="true" ></i>Iniciar Sesión</a>
+                                    <a href="" data-toggle="modal" data-target="#Modal_register"><i class="fa fa-user-plus" aria-hidden="true"></i>Registrarse</a>
                                     
                                   </div>
                                 </div>';
@@ -178,11 +178,8 @@ session_start();
 						<!-- LOGO -->
 						<div class="col-md-3">
 							<div class="header-logo">
-								<a href="#" class="logo">
-								<font style="font-style:normal; font-size: 33px;color: aliceblue;font-family: serif">
-                                        Meraki Store
-                                    </font>
-									
+								<a href="index.php" class="logo">
+									<img src="img/LogotipoMeraki.png" alt="Meraki Logo" style="max-width: 200px; height: auto;">
 								</a>
 							</div>
 						</div>

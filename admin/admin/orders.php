@@ -52,7 +52,7 @@ include "topheader.php";
                         echo "<tr><td>$cus_name</td><td>$p_names</td><td>$email<br>$contact_no</td><td>$address<br>ZIP: $zip_code<br>$country</td><td>$details</td><td>$quantity</td><td>$time</td>
 
                         <td>
-                        <a class=' btn btn-danger' href='orders.php?order_id=$order_id&action=delete'>Delete</a>
+                        <a class=' btn btn-danger' href='orders.php?order_id=$order_id&action=delete'>Eliminar</a>
                         </td></tr>";
                         }
                         ?>

@@ -35,13 +35,13 @@ include "topheader.php";
           <div class="col-md-14">
             <div class="card ">
               <div class="card-header card-header-primary">
-                <h4 class="card-title">sales / Page <?php echo $page;?> </h4>
+                <h4 class="card-title">Ventas / Página <?php echo $page;?> </h4>
               </div>
               <div class="card-body">
                 <div class="table-responsive ps">
                   <table class="table table-hover tablesorter " id="">
                     <thead class=" text-primary">
-                      <tr><th>order_id</th><th>Products</th><th>Contact | Email</th><th>Address</th><th>amount</th><th>Quantity</th>
+                      <tr><th>Id</th><th>Productos</th><th>Contacto | Correo</th><th>Dirección</th><th>Monto</th><th>Cantidad</th>
                     </tr></thead>
                     <tbody>
                       <?php

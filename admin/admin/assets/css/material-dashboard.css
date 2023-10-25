@@ -16625,7 +16625,7 @@ label {
 .card.bg-info,
 .card.card-rotate.bg-info .front,
 .card.card-rotate.bg-info .back {
-  background: linear-gradient(60deg, #26c6da, #00acc1);
+  background: linear-gradient(60deg, #0070c9, #00acc1);
 }
 
 .card .card-header-success .card-icon,

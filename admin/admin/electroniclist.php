@@ -62,7 +62,7 @@ include "topheader.php";
                   <table class="table table-hover tablesorter " id="page1">
                     <thead class=" text-primary">
                       <tr><th>Image</th><th>Name</th><th>Price</th><th>
-	<a class=" btn btn-primary" href="add_products.php">Add New</a></th></tr></thead>
+	<a class=" btn btn-primary" href="add_products.php">Agregar Nuevo</a></th></tr></thead>
                     <tbody>
                       <?php 
 
@@ -73,7 +73,7 @@ include "topheader.php";
                         echo "<tr><td><img src='../product_images/$image' style='width:50px; height:50px; border:groove #000'></td><td>$product_name</td>
                         <td>$price</td>
                         <td>
-                        <a class=' btn btn-success' href='clothes_list.php?product_id=$product_id&action=delete'>Delete</a>
+                        <a class=' btn btn-success' href='clothes_list.php?product_id=$product_id&action=delete'>Eliminar</a>
                         </td></tr>";
                         }
 

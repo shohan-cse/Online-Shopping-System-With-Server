@@ -27,11 +27,11 @@
                              <div class="alert alert-danger"><h4 id="e_msg"><?php include('./server/errors.php'); ?></h4></div>
                             <div class="form-group">
                                 <label for="name"><i class="zmdi zmdi-account material-icons-name"></i></label>
-                                <input type="text" name="admin_name" id="name" placeholder="Your Name"/>
+                                <input type="text" name="admin_name" id="name" placeholder="Tu Nombre"/>
                             </div>
                             <div class="form-group">
                                 <label for="email"><i class="zmdi zmdi-email"></i></label>
-                                <input type="email" name="admin_email" id="email" placeholder="Your Email"/>
+                                <input type="email" name="admin_email" id="email" placeholder="Tu Correo"/>
                             </div>
                             <div class="form-group">
                                 <label for="pass"><i class="zmdi zmdi-lock"></i></label>

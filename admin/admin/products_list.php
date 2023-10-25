@@ -45,15 +45,15 @@ include "topheader.php";
          <div class="col-md-14">
             <div class="card ">
               <div class="card-header card-header-primary">
-                <h4 class="card-title"> Products List</h4>
+                <h4 class="card-title"> Lista de Productos </h4>
                 
               </div>
               <div class="card-body">
                 <div class="table-responsive ps">
                   <table class="table tablesorter " id="page1">
                     <thead class=" text-primary">
-                      <tr><th>Image</th><th>Name</th><th>Price</th><th>
-	<a class=" btn btn-primary" href="add_products.php">Add New</a></th></tr></thead>
+                      <tr><th>Imagen</th><th>Nombre</th><th>Precio</th><th>
+	<a class=" btn btn-primary" href="add_products.php">Agregar Nuevo</a></th></tr></thead>
                     <tbody>
                       <?php 
 
@@ -64,7 +64,7 @@ include "topheader.php";
                         echo "<tr><td><img src='../../product_images/$image' style='width:50px; height:50px; border:groove #000'></td><td>$product_name</td>
                         <td>$price</td>
                         <td>
-                        <a class=' btn btn-success' href='clothes_list.php?product_id=$product_id&action=delete'>Delete</a>
+                        <a class=' btn btn-success' href='clothes_list.php?product_id=$product_id&action=delete'>Eliminar</a>
                         </td></tr>";
                         }
 
@@ -79,7 +79,7 @@ include "topheader.php";
                 <li class="page-item">
                   <a class="page-link" href="#" aria-label="Previous">
                     <span aria-hidden="true">&laquo;</span>
-                    <span class="sr-only">Previous</span>
+                    <span class="sr-only">Anterior</span>
                   </a>
                 </li>
                  <?php 

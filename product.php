@@ -168,15 +168,15 @@ include "header.php";
 									</div>
 								</div>
 								<div class="btn-group" style="margin-left: 25px; margin-top: 15px">
-								<button class="add-to-cart-btn" pid="'.$row['product_id'].'"  id="product" ><i class="fa fa-shopping-cart"></i> Añadir al carrito</button>
+								<button class="add-to-cart-btn" pid="'.$row['product_id'].'"  id="product" ><i class="fa fa-shopping-cart"></i> Agregar al carrito</button>
                                 </div>
 								
 								
 							</div>
 
 							<ul class="product-btns">
-								<li><a href="#"><i class="fa fa-heart-o"></i> Añadir a Favoritos</a></li>
-								<li><a href="#"><i class="fa fa-exchange"></i> Añadir a Comparación</a></li>
+								<li><a href="#"><i class="fa fa-heart-o"></i> Agregar a Favoritos</a></li>
+								<li><a href="#"><i class="fa fa-exchange"></i> Agregar a Comparación</a></li>
 							</ul>
 
 							<ul class="product-links">
@@ -397,11 +397,11 @@ include "header.php";
 										<div class="col-md-3 mainn">
 											<div id="review-form">
 												<form class="review-form">
-													<input class="input" type="text" placeholder="Your Name">
-													<input class="input" type="email" placeholder="Your Email">
-													<textarea class="input" placeholder="Your Review"></textarea>
+													<input class="input" type="text" placeholder="Tu Nombre">
+													<input class="input" type="email" placeholder="Tu Correo">
+													<textarea class="input" placeholder="Tu Reseña"></textarea>
 													<div class="input-rating">
-														<span>Your Rating: </span>
+														<span>Tu Valoración: </span>
 														<div class="stars">
 															<input id="star5" name="rating" value="5" type="radio"><label for="star5"></label>
 															<input id="star4" name="rating" value="4" type="radio"><label for="star4"></label>
@@ -410,7 +410,7 @@ include "header.php";
 															<input id="star1" name="rating" value="1" type="radio"><label for="star1"></label>
 														</div>
 													</div>
-													<button class="primary-btn">Submit</button>
+													<button class="primary-btn">Enviar</button>
 												</form>
 											</div>
 										</div>
@@ -439,7 +439,7 @@ include "header.php";
                     
 					<div class="col-md-12">
 						<div class="section-title text-center">
-							<h3 class="title">Related Products</h3>
+							<h3 class="title">Productos Relacionados</h3>
 							
 						</div>
 					</div>
@@ -490,13 +490,13 @@ include "header.php";
 											<i class='fa fa-star'></i>
 										</div>
 										<div class='product-btns'>
-											<button class='add-to-wishlist'><i class='fa fa-heart-o'></i><span class='tooltipp'>Añadir a Favoritos</span></button>
-											<button class='add-to-compare'><i class='fa fa-exchange'></i><span class='tooltipp'>Añadir a Comparación</span></button>
+											<button class='add-to-wishlist'><i class='fa fa-heart-o'></i><span class='tooltipp'>Agregar a Favoritos</span></button>
+											<button class='add-to-compare'><i class='fa fa-exchange'></i><span class='tooltipp'>Agregar a Comparación</span></button>
 											<button class='quick-view'><i class='fa fa-eye'></i><span class='tooltipp'>quick view</span></button>
 										</div>
 									</div>
 									<div class='add-to-cart'>
-										<button pid='$pro_id' id='product' class='add-to-cart-btn block2-btn-towishlist' href='#'><i class='fa fa-shopping-cart'></i> Añadir al carrito</button>
+										<button pid='$pro_id' id='product' class='add-to-cart-btn block2-btn-towishlist' href='#'><i class='fa fa-shopping-cart'></i> Agregar al carrito</button>
 									</div>
 								</div>
                                 </div>

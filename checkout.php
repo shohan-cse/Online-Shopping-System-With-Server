@@ -120,23 +120,23 @@ span.price {
 					<div class="row-checkout">
 					
 					<div class="col-50">
-						<h3>Billing Address</h3>
-						<label for="fname"><i class="fa fa-user" ></i> Full Name</label>
+						<h3>Dirección de Envío</h3>
+						<label for="fname"><i class="fa fa-user" ></i> Nombre Completo</label>
 						<input type="text" id="fname" class="form-control" name="firstname" pattern="^[a-zA-Z ]+$"  value="'.$row["first_name"].' '.$row["last_name"].'">
-						<label for="email"><i class="fa fa-envelope"></i> Email</label>
+						<label for="email"><i class="fa fa-envelope"></i> Correo</label>
 						<input type="text" id="email" name="email" class="form-control" pattern="^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9]+(\.[a-z]{2,4})$" value="'.$row["email"].'" required>
-						<label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
+						<label for="adr"><i class="fa fa-address-card-o"></i> Dirección</label>
 						<input type="text" id="adr" name="address" class="form-control" value="'.$row["address1"].'" required>
-						<label for="city"><i class="fa fa-institution"></i> City</label>
+						<label for="city"><i class="fa fa-institution"></i> Ciudad</label>
 						<input type="text" id="city" name="city" class="form-control" value="'.$row["address2"].'" pattern="^[a-zA-Z ]+$" required>
 
 						<div class="row">
 						<div class="col-50">
-							<label for="state">State</label>
+							<label for="Departamento">Departamento</label>
 							<input type="text" id="state" name="state" class="form-control" pattern="^[a-zA-Z ]+$" required>
 						</div>
 						<div class="col-50">
-							<label for="zip">Zip</label>
+							<label for="zip">Código Postal</label>
 							<input type="text" id="zip" name="zip" class="form-control" pattern="^[0-9]{6}(?:-[0-9]{4})?$" required>
 						</div>
 						</div>
@@ -144,8 +144,8 @@ span.price {
 					
 					
 					<div class="col-50">
-						<h3>Payment</h3>
-						<label for="fname">Accepted Cards</label>
+						<h3>Pago</h3>
+						<label for="fname">Tarjetas Aceptadas</label>
 						<div class="icon-container">
 						<i class="fa fa-cc-visa" style="color:navy;"></i>
 						<i class="fa fa-cc-amex" style="color:blue;"></i>
@@ -154,14 +154,14 @@ span.price {
 						</div>
 						
 						
-						<label for="cname">Name on Card</label>
+						<label for="cname">Nombre en la Tarjeta</label>
 						<input type="text" id="cname" name="cardname" class="form-control" pattern="^[a-zA-Z ]+$" required>
 						
 						<div class="form-group" id="card-number-field">
-                        <label for="cardNumber">Card Number</label>
+                        <label for="cardNumber">Número de la Tarjeta</label>
                         <input type="text" class="form-control" id="cardNumber" name="cardNumber" required>
                     </div>
-						<label for="expdate">Exp Date</label>
+						<label for="expdate">Fecha de Expiración</label>
 						<input type="text" id="expdate" name="expdate" class="form-control" pattern="^((0[1-9])|(1[0-2]))\/(\d{2})$" placeholder="12/22"required>
 						
 
@@ -176,7 +176,7 @@ span.price {
 					</div>
 					</div>
 					</div>
-					<label><input type="CHECKBOX" name="q" class="roomselect" value="conform" required> Shipping address same as billing
+					<label><input type="CHECKBOX" name="q" class="roomselect" value="conform" required> Dirección de envío igual que la registrada
 					</label>';
 					$i=1;
 					$total=0;
@@ -202,7 +202,7 @@ span.price {
 				<input type="hidden" name="total_count" value="'.$total_count.'">
 					<input type="hidden" name="total_price" value="'.$total.'">
 					
-					<input type="submit" id="submit" value="Continue to checkout" class="checkout-btn">
+					<input type="submit" id="submit" value="Continuar con la compra" class="checkout-btn">
 				</form>
 				</div>
 			</div>
@@ -224,7 +224,7 @@ span.price {
 					$i=1;
 					echo
 					"
-					<h4>Cart 
+					<h4>Carrito
 					<span class='price' style='color:black'>
 					<i class='fa fa-shopping-cart'></i> 
 					<b>$total_count</b>
@@ -233,10 +233,10 @@ span.price {
 
 					<table class='table table-condensed'>
 					<thead><tr>
-					<th >no</th>
-					<th >product title</th>
-					<th >	qty	</th>
-					<th >	amount</th></tr>
+					<th >N.</th>
+					<th >Nombre del Producto</th>
+					<th >	Cantidad	</th>
+					<th >	Monto</th></tr>
 					</thead>
 					<tbody>
 					";
@@ -268,7 +268,7 @@ span.price {
 				</table>
 				<hr>
 				
-				<h3>total<span class='price' style='color:black'><b>$$total</b></span></h3>";
+				<h3>Total<span class='price' style='color:black'><b>$$total</b></span></h3>";
 					
 				}
 				?>
@@ -283,24 +283,27 @@ span.price {
 				<!-- row -->
 				<div class="row">
 					<div class="col-md-12">
-						<div class="newsletter">
-							<p>Sign Up for the <strong>NEWSLETTER</strong></p>
-							<form >
-								<input class="input" type="email" placeholder="Enter Your Email">
-								<button class="newsletter-btn"><i class="fa fa-envelope"></i> Subscribe</button>
+					<div class="newsletter">
+							<p>Suscríbete para recibir <strong>OFERTAS</strong></p>
+							<form id="offer_form" onsubmit="return false">
+								<input class="input" type="email" id="email" name="email" placeholder="Ingresa tu correo">
+								<button class="newsletter-btn" value="Sign Up" name="signup_button" type="submit"><i class="fa fa-envelope"></i> Suscribirse</button>
 							</form>
+							<div class="" id="offer_msg">
+                                <!--Alert from signup form-->
+                            </div>
 							<ul class="newsletter-follow">
 								<li>
-									<a href="#"><i class="fa fa-facebook"></i></a>
+									<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><i class="fa fa-facebook"></i></a>
 								</li>
 								<li>
-									<a href="#"><i class="fa fa-twitter"></i></a>
+									<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><i class="fa fa-twitter"></i></a>
 								</li>
 								<li>
-									<a href="#"><i class="fa fa-instagram"></i></a>
+									<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><i class="fa fa-instagram"></i></a>
 								</li>
 								<li>
-									<a href="#"><i class="fa fa-pinterest"></i></a>
+									<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><i class="fa fa-github"></i></a>
 								</li>
 							</ul>
 						</div>

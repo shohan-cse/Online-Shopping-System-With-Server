@@ -19,7 +19,7 @@
     <link rel="icon" type="image/png" href="../assets/img/favicon.png">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <title>
-        Meraki Store | Admin
+        Meraki | Admin
     </title>
     <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
     <!--     Fonts and icons     -->
@@ -47,59 +47,59 @@
                     <li class="nav-item active  ">
                         <a class="nav-link" href="index.php">
                             <i class="material-icons">dashboard</i>
-                            <p>Dashboard</p>
+                            <p>Panel</p>
                         </a>
                     </li>
                     <li class="nav-item ">
                         <a class="nav-link" href="addsuppliers.php">
                             <i class="material-icons">person</i>
-                            <p>Add users</p>
+                            <p>Agregar Usuarios</p>
                         </a>
                         
                     </li>
                     <li class="nav-item ">
                         <a class="nav-link" href="add_products.php">
                         <i class="material-icons">add</i>
-                        <p>Add Products</p>
+                        <p>Agregar Productos</p>
                         </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="products_list.php">
                         <i class="material-icons">list</i>
-                        <p>Product List</p>
+                        <p>Lista de Productos</p>
                         </a>
                         
                     </li>
                      <li class="nav-item ">
                         <a class="nav-link" href="manageuser.php">
                             <i class="material-icons">person</i>
-                            <p>Manage users</p>
+                            <p>Gestionar Usuarios</p>
                         </a>
                     </li>
                     <li class="nav-item ">
             <a class="nav-link" href="activity.php">
               <i class="material-icons">timeline</i>
-              <p>Activities</p>
+              <p>Actividades</p>
             </a>
           </li>
                    
                     <li class="nav-item ">
                         <a class="nav-link" href="profile.php">
                             <icons-image _ngcontent-aye-c22="" _nghost-aye-c19=""><i _ngcontent-aye-c19="" class="material-icons icon-image-preview">settings</i></icons-image>
-                            <p>setting</p>
+                            <p>Configuración</p>
                         </a>
                     </li>
                     <li class="nav-item ">
                         <a class="nav-link" href="salesofday.php">
                             <i class="material-icons">library_books</i>
-                            <p>sales</p>
+                            <p>Ventas</p>
                         </a>
                     </li>
 
                     <li class="nav-item ">
                         <a class="nav-link" href="../../chat/login.php">
                             <i class="material-icons">notifications</i>
-                            <p>Discussion</p>
+                            <p>Discusión</p>
                         </a>
                     </li>
                     <!-- <li class="nav-item active-pro ">

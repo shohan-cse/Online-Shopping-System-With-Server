@@ -46,7 +46,7 @@ include "topheader.php";
          <div class="col-md-7">
             <div class="card">
               <div class="card-header card-header-primary">
-                <h5 class="title">Add Product</h5>
+                <h5 class="title">Agregar Producto</h5>
               </div>
               <div class="card-body">
                 
@@ -54,13 +54,13 @@ include "topheader.php";
                     
                     <div class="col-md-12">
                       <div class="form-group">
-                        <label>Product Title</label>
+                        <label>Nombre del Producto</label>
                         <input type="text" id="product_name" required name="product_name" class="form-control">
                       </div>
                     </div>
                     <div class="col-md-4">
                       <div class="">
-                        <label for="">Add Image</label>
+                        <label for="">Agregar Imagen</label>
                         <input type="file" name="picture" required class="btn btn-fill btn-success" id="picture" >
                       </div>
                     </div>
@@ -73,7 +73,7 @@ include "topheader.php";
                   
                     <div class="col-md-12">
                       <div class="form-group">
-                        <label>Pricing</label>
+                        <label>Precio</label>
                         <input type="text" id="price" name="price" required class="form-control" >
                       </div>
                     </div>
@@ -118,7 +118,7 @@ include "topheader.php";
                 
               </div>
               <div class="card-footer">
-                  <button type="submit" id="btn_save" name="btn_save" required class="btn btn-fill btn-primary">Modificar Producto</button>
+                  <button type="submit" id="btn_save" name="btn_save" required class="btn btn-fill btn-primary">Agregar Producto</button>
               </div>
             </div>
           </div>
