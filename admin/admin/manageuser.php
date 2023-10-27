@@ -56,6 +56,7 @@ include "topheader.php";
                         echo"<td>
                      
                         <a class='btn btn-danger' href='manageuser.php?user_id=$user_id&action=delete'>Eliminar<div class='ripple-container'></div></a>
+                        <a class='btn btn-warning' href='edituser.php?user_id=$user_id&action=update'>Editar<div class='ripple-container'></div></a>
                         </td></tr>";
                         }
                         mysqli_close($con);

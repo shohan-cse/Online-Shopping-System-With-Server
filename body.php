@@ -10,7 +10,7 @@
     <div class="carousel-inner">
 
       <div class="item active">
-        <img src="img/banner3.jpg" alt="Los Angeles" style="width:100%;">
+        <img src="img/banner1.jpg" alt="Los Angeles" style="width:100%;">
         
       </div>
 
@@ -20,15 +20,15 @@
       </div>
     
       <div class="item">
+        <img src="img/banner3.jpg" alt="New York" style="width:100%;">
+        
+      </div>
+      <div class="item">
         <img src="img/banner4.jpg" alt="New York" style="width:100%;">
         
       </div>
       <div class="item">
-        <img src="img/banner1.jpg" alt="New York" style="width:100%;">
-        
-      </div>
-      <div class="item">
-        <img src="img/banner3.jpg" alt="New York" style="width:100%;">
+        <img src="img/banner5.jpg" alt="New York" style="width:100%;">
         
       </div>
   
@@ -280,10 +280,6 @@
 							<h3 class="title">Top ventas</h3>
 							<div class="section-nav">
 								<ul class="section-tab-nav tab-nav">
-									<li class="active"><a data-toggle="tab" href="#tab2">Formal</a></li>
-									<li><a data-toggle="tab" href="#tab2">Camisas</a></li>
-									<li><a data-toggle="tab" href="#tab2">Camisetas</a></li>
-									<li><a data-toggle="tab" href="#tab2">Pantalones</a></li>
 								</ul>
 							</div>
 						</div>

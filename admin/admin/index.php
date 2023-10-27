@@ -19,7 +19,7 @@ include "activitity.php";
             echo "<div class='col-md-12 col-xs-12' id='product_msg'>
           <div class='alert alert-success'>
             <a href='#'' class='close' data-dismiss='alert' aria-label='close'>×</a>
-            <b>Producto agregado al carrito</b>
+            <b>Producto agregado</b>
           </div>
         </div>";
             }

@@ -162,6 +162,7 @@ include "header.php";
 								<div class="qty-label">
 									Qty
 									<div class="input-number">
+										<input class="input" type="text" placeholder="1">
 										
 										<span class="qty-up">+</span>
 										<span class="qty-down">-</span>
