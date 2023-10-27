@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3308
--- Generation Time: Oct 27, 2023 at 09:24 AM
+-- Generation Time: Oct 27, 2023 at 07:20 PM
 -- Server version: 10.4.28-MariaDB
 -- PHP Version: 8.2.4
 
@@ -103,7 +103,6 @@ INSERT INTO `cart` (`id`, `p_id`, `ip_add`, `user_id`, `qty`) VALUES
 (156, 75, '::1', 29, 1),
 (157, 74, '::1', 29, 1),
 (158, 76, '::1', 29, 1),
-(159, 36, '::1', -1, 1),
 (160, 39, '::1', -1, 1);
 
 -- --------------------------------------------------------
@@ -286,10 +285,6 @@ INSERT INTO `products` (`product_id`, `product_cat`, `product_brand`, `product_t
 (63, 3, 6, 'Jeans de hombre', 550, 'Pants', 'pt1.JPG', 'boys Jeans Pant'),
 (64, 3, 6, 'Jeans de hombre', 460, 'pants', 'pt2.JPG', 'boys Jeans Pant'),
 (65, 3, 6, 'Jeans de hombre', 470, 'pants', 'pt3.JPG', 'boys Jeans Pant'),
-(66, 3, 6, 'Jeans de hombre', 480, 'pants', 'pt4.JPG', 'boys Jeans Pant'),
-(67, 3, 6, 'Jeans de hombre', 360, 'pants', 'pt5.JPG', 'boys Jeans Pant'),
-(68, 3, 6, 'Jeans de hombre', 550, 'pants', 'pt6.JPG', 'boys Jeans Pant'),
-(69, 3, 6, 'Jeans de hombre', 390, 'pants', 'pt7.JPG', 'boys Jeans Pant'),
 (70, 3, 6, 'pantalon de caballero', 399, 'pants', 'pt8.JPG', 'boys Jeans Pant'),
 (71, 1, 2, 'Samsung galaxy s7', 5000, 'Samsung galaxy s7', 'product07.png', 'samsung mobile electronics'),
 (72, 7, 2, 'sony Headphones', 3500, 'sony Headphones', 'product02.png', 'sony Headphones electronics gadgets'),
@@ -299,8 +294,7 @@ INSERT INTO `products` (`product_id`, `product_cat`, `product_brand`, `product_t
 (76, 1, 5, 'sony note 6gb ram', 4500, 'sony note 6gb ram', 'product04.png', 'sony note 6gb ram mobile electronics'),
 (77, 1, 4, 'MSV laptop 16gb ram NVIDEA Graphics', 5499, 'MSV laptop 16gb ram', 'product06.png', 'MSV laptop 16gb ram NVIDEA Graphics electronics'),
 (78, 1, 5, 'dell laptop 8gb ram intel integerated Graphics', 4579, 'dell laptop 8gb ram intel integerated Graphics', 'product08.png', 'dell laptop 8gb ram intel integerated Graphics electronics'),
-(79, 7, 2, 'camera with 3D pixels', 2569, 'camera with 3D pixels', 'product09.png', 'camera with 3D pixels camera electronics gadgets'),
-(87, 4, 3, 'Need For Speed', 120000, 'Carrito de Need For Speed', 'a.jpg', 'Carro');
+(79, 7, 2, 'camera with 3D pixels', 2569, 'camera with 3D pixels', 'product09.png', 'camera with 3D pixels camera electronics gadgets');
 
 -- --------------------------------------------------------
 
@@ -325,7 +319,7 @@ CREATE TABLE `user_info` (
 
 INSERT INTO `user_info` (`user_id`, `first_name`, `last_name`, `email`, `password`, `mobile`, `address1`, `address2`) VALUES
 (28, 'Julio', 'Guardado', 'julio@gmail.com', 'julio123456', '1234567896', 'CZ', 'San Salvado'),
-(29, 'Emerson', 'Riva', 'emerson@gmail.com', '123456789', '11223344', 'Mi casa', 'San Salvado');
+(29, 'Emerson', 'Rivas', 'emerson@gmail.com', '123456789', '11223344', 'Mi casa', 'San Salvado');
 
 --
 -- Triggers `user_info`
@@ -515,7 +509,7 @@ ALTER TABLE `order_products`
 -- AUTO_INCREMENT for table `products`
 --
 ALTER TABLE `products`
-  MODIFY `product_id` int(100) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=89;
+  MODIFY `product_id` int(100) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=92;
 
 --
 -- AUTO_INCREMENT for table `user_info`
