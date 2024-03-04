@@ -1,8 +1,8 @@
-# Online Shopping System With Server (Apricot-Store)
+# 🍁Online Shopping System With Server (Apricot-Store)
 Hello, Hope you're doing well!
 Apricot Store(Named this project) is a project that is based on an online shopping system. In this project both the front-end and back-end parts have been used smoothly for better experience. As It's an open source project. So, It's open for anyone to download the source code and use it. 
 
-# Installation Process
+# 🔥Installation Process
 01. Install XAMPP
 
 02. Open XAMPP Control panel and start [apache] and [mysql]
@@ -29,13 +29,13 @@ Apricot Store(Named this project) is a project that is based on an online shoppi
 
 13. admin login details  Email= admin@apicotstore.com or username= admin and Password= 123456789
 
-## If you like my project 
+## 💟If you like my project 
 Don't forget to (Follow) and press the (Star) button. If you want to save this project in your profile, then click on the (Fork) button from the top right side
 
-## visit other repository with below link
+## 💥Visit another repository with the below link
 https://github.com/shohan-cse?tab=repositories
 
-# Screenshots
+# 🎬Screenshots
 
 📌Home Page:
 
@@ -54,8 +54,8 @@ https://github.com/shohan-cse?tab=repositories
 ![Top Selling's Page](https://github.com/shohan3401/Apricot-Store/blob/main/screenshot/top_selling.PNG)
 
 
-## Contact with me
+## 📪Contact with me
 hi.msrahman@gmail.com
 
-
-[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/shohancse)
+## ❤Support Me
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/himsrahmanu)
